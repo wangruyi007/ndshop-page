@@ -1,0 +1,56 @@
+@import "../layout/variables", "../layout/mixin";
+/*店铺banner样式*/
+.banner-shop{
+        position: relative;
+        width: 1100px;
+        height: 422px;
+        margin: 0 auto;
+  .banner-pics{
+       li{ position: absolute;}
+     }
+  .banner-circular {
+    position: absolute;
+    left: 47%;
+    bottom: 20px;
+    z-index: 5;
+    .now {
+      background: #c9c9c9;
+    }
+    li {
+      width: 10px;
+      height: 10px;
+      background-color: #e4e4e4;
+      float: left;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 0 8px;
+
+    }
+  }
+}
+.sells{
+  margin-top: 50px;
+  $margin: 0 auto;
+  h2{
+      font-family: 'Microsoft Yahei';
+      font-size: 18px;
+      display:block;
+      width:8%;
+      text-align: center;
+      color: #333333;
+      margin:$margin;
+      b {
+        display:block;
+        width:20%;
+        padding-top: 10px;
+        margin:$margin;
+        border-bottom-color: #333333;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        background-color: rgb(255, 255, 255);
+      }
+  }
+
+}
+
+
